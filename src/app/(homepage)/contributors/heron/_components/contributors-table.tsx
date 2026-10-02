@@ -1,4 +1,3 @@
-import { Github } from "lucide-react";
 import {
   Table,
   TableBody,
@@ -31,7 +30,7 @@ export const ContributorsTable = ({ contributors }: ContributorsTableProps) => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {contributors.map(({ name, zeduUsername, role, github }, index) => (
+          {contributors.map(({ name, zeduUsername, role }, index) => (
             <TableRow key={name}>
               <TableCell className="px-3 text-neutral-500 sm:px-4">
                 {index + 1}
@@ -43,17 +42,6 @@ export const ContributorsTable = ({ contributors }: ContributorsTableProps) => {
                     <span className="rounded-full bg-primary-500/10 px-2 py-0.5 text-xs font-medium text-primary-500">
                       {role}
                     </span>
-                  )}
-                  {github && (
-                    <a
-                      href={`https://github.com/${github}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={`GitHub: ${github}`}
-                      className="text-neutral-500 transition-colors hover:text-neutral-900"
-                    >
-                      <Github size={16} />
-                    </a>
                   )}
                 </div>
               </TableCell>

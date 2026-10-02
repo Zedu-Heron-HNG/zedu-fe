@@ -2,28 +2,20 @@ export type Contributor = {
   name: string;
   zeduUsername?: string;
   role?: string;
-  github?: string;
 };
 
 export const TEAM_NAME = "Heron";
 
 // To add yourself: copy one entry, fill in your details, and open a PR into devbranch.
-// Only `name` is required. `zeduUsername` is your username on the Zedu app (no "@"),
-// `github` is your GitHub username only (no URL). Order doesn't matter: the page
-// sorts by name, so add your entry anywhere.
+// Only `name` is required. `zeduUsername` is your username on the Zedu app (no "@").
+// Order doesn't matter: the page sorts by name, so add your entry anywhere.
 export const contributors: Contributor[] = [
   {
     name: "Tolulope Ogungbemi",
     role: "Team Lead",
-    // Team lead links to the team's GitHub organization, not a personal account.
-    github: "Zedu-Heron-HNG",
     zeduUsername: "Dave Tolu",
   },
-  {
-    name: "Timothy Adeyemo",
-    zeduUsername: "Timothy Adeyemo",
-    github: "timoty-a",
-  },
+  { name: "Timothy Adeyemo", zeduUsername: "Timothy Adeyemo" },
   { name: "Samuel Okwelogu", zeduUsername: "samuel Okwelogu" },
   { name: "Gbadebo Wale", zeduUsername: "Gbadebo Wale" },
   { name: "Joshua Akuma", zeduUsername: "joshua akuma" },
@@ -37,7 +29,7 @@ export const contributors: Contributor[] = [
   { name: "Noah Oshose", zeduUsername: "Ose" },
   { name: "Daniel Okoroafor", zeduUsername: "Daniel Okoroafor" },
   { name: "Theophilus Taiwo Ajibade", zeduUsername: "ajibade theophilus" },
-  { name: "Louis obam", zeduUsername: "luiz micheal", github: "Lowizi" },
+  { name: "Louis obam", zeduUsername: "luiz micheal" },
   { name: "Arinze Ogbuniba", zeduUsername: "zeena" },
   { name: "Eniola Adegbiyan", zeduUsername: "Arcsquid" },
   { name: "Oluwadunsin Oluwaleye", zeduUsername: "oluwadunsinoluwaleye" },
