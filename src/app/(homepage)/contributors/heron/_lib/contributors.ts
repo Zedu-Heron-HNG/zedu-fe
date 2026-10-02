@@ -16,6 +16,7 @@ export const contributors: Contributor[] = [
     zeduUsername: "Dave Tolu",
   },
   { name: "Timothy Adeyemo", zeduUsername: "Timothy Adeyemo" },
+  { name: "Bayode Manuel", zeduUsername: "Senior Man" },
   { name: "Samuel Okwelogu", zeduUsername: "samuel Okwelogu" },
   { name: "Gbadebo Wale", zeduUsername: "Gbadebo Wale" },
   { name: "Joshua Akuma", zeduUsername: "joshua akuma" },
