@@ -44,7 +44,7 @@ export const FeatureSection = () => {
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:gap-10">
             <div className="flex w-full flex-col gap-3 text-left lg:w-5/12">
               <h1 className="text-2xl font-semibold leading-tight text-neutral-900 sm:text-3xl">
-                Fewer Tools, Smarter Learning
+                Fewer Tools, Better Learning
               </h1>
               <p className="text-sm leading-relaxed text-neutral-600 sm:text-base max-w-xl">
                 Replace scattered apps with one structured platform for
