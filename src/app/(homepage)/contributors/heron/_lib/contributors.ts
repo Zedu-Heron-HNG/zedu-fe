@@ -28,7 +28,7 @@ export const contributors: Contributor[] = [
   { name: "Chelsea Singla", zeduUsername: "chelsea_singla" },
   { name: "Noah Oshose", zeduUsername: "Ose" },
   { name: "Daniel Okoroafor", zeduUsername: "Daniel Okoroafor" },
-  { name: "Theophilus Taiwo Ajibade", zeduUsername: "ajibade theophilus" },
+  { name: "Theophilus Ajibade", zeduUsername: "ajibade theophilus" },
   { name: "Louis obam", zeduUsername: "luiz micheal" },
   { name: "Arinze Ogbuniba", zeduUsername: "zeena" },
   { name: "Eniola Adegbiyan", zeduUsername: "Arcsquid" },
