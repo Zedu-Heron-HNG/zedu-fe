@@ -51,4 +51,5 @@ export const contributors: Contributor[] = [
   { name: "Musa Abdulrofihi", zeduUsername: "Musa" },
   { name: "Tayo Jubril", zeduUsername: "tayo jubril" },
   { name: "Omomofe Adejare", zeduUsername: "adejare omomofe" },
+  { name: "Timi Abiola", zeduUsername: "tecnine" }
 ];
