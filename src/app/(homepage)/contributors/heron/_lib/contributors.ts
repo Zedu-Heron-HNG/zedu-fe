@@ -18,7 +18,7 @@ export const contributors: Contributor[] = [
   { name: "Timothy Adeyemo", zeduUsername: "Timothy Adeyemo" },
   { name: "Gbadebo Wale", zeduUsername: "Gbadebo Wale" },
   { name: "Samuel Okwelogu", zeduUsername: "samuel Okwelogu" },
-  { name: "Joshua Akuma", zeduUsername: "joshua akuma" },
+  { name: "Joshuaa Akuma", zeduUsername: "joshua akuma" },
   { name: "Oluwaseyifunmi Akinlabi", zeduUsername: "Oluwaseyifunmi" },
   { name: "Trinity Faith Egbukwu", zeduUsername: "Chloe egbukwu" },
   { name: "Ukanah Dean", zeduUsername: "ukanah15thdean" },
@@ -48,4 +48,5 @@ export const contributors: Contributor[] = [
   { name: "Amal", zeduUsername: "Lanfear" },
   { name: "Adesanya Sofiyyah", zeduUsername: "Sophia" },
   { name: "Chinaza Jessica Mbah", zeduUsername: "ZamEpkere" },
+  { name: "Tayo Jubril", zeduUsername: "tayo jubril" },
 ];
