@@ -29,13 +29,6 @@
 
 <!-- The expected behaviour after following the steps above. -->
 
-## Backend
-
-<!-- Leave this section empty: your preview runs against the dev backend.
-     Only if this PR needs backend work that isn't on dev yet, add a line here starting with "Backend URL:"
-     followed by that backend's host, for example https://api.<team>.groups.zedu.chat. The Backend dependency
-     check then blocks merging until the backend lands on dev and you delete the line. -->
-
 ## Test evidence
 
 <!-- The Fork build check reports the build result automatically. Say which backend you tested against,
@@ -46,14 +39,20 @@
 
 ## Mandatory checks
 
-- [ ] **Atomic:** one logical change, at most ~400 lines of meaningful code (lockfiles and generated files like `*.tsbuildinfo` don't count). Larger needs a `size-override` label from a reviewer.
+- [ ] **Atomic:** exactly one ticket, max ~1 day of work (≤400 lines). Larger needs a `size-override` label from a reviewer.
+- [ ] **Feature flag:** new routes and large features sit behind a `NEXT_PUBLIC_FF_*` flag, default `OFF`.
+  - Flag name: `____________` (write `N/A` for small UI tweaks)
 - [ ] **Database / API contract:** schema changes follow Expand-Contract — no destructive drops or renames.
-- [ ] **Preview:** I checked the change in my fork's preview (or the fork build, if the team hasn't set up previews).
+- [ ] **Preview:** I verified the change in the fork build (and my team's preview link, if we deploy one).
 - [ ] **Protected files:** I did not change `.github/`, `AGENTS.md`, `CONTRIBUTING.md` or tooling config without reviewer agreement and the `config-change-approved` label.
 
 ## Screenshots / recording
 
 <!-- Required for visible or interactive changes. Otherwise write "N/A, non-visual change". -->
+
+## AI usage
+
+<!-- One line on how AI was used, if significant (see CONTRIBUTING.md, "AI usage"). -->
 
 ## Checklist
 
