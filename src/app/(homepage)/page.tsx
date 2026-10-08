@@ -32,7 +32,7 @@ const HomePage = () => {
       <WhySection />
       <FAQSection />
       <DynamicFooter
-        text="Run Your Next Cohort Without Limits"
+        text="Empower Your Next Cohort to Learn Without Limits"
         description="Join thousands of educators building better learning experiences."
       />
     </section>
